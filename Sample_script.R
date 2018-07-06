@@ -37,6 +37,7 @@ library(tidyverse)
 setwd("your file path")
 temp_elevation <- read.csv("temp_elevation.csv")
 
+
 # Make a plot showing how soil temperature changes with elevation ----
 
 (temp.el <- ggplot (temp_elevation, aes(x = Elevation.m, y = Soil.temp.mean)) +
